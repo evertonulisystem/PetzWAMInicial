@@ -42,6 +42,6 @@ public class Home extends Base {
         search(product);
         txtInputSearch.sendKeys(Keys.ENTER);
     }
-
+//features..steps..searchWith...
 
 }

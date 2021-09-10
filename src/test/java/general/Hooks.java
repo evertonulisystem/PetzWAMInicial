@@ -10,11 +10,12 @@ public class Hooks extends Base{
     //qdo extende crie objeto local com a extendida (selenium)
     private Base base;
 
+
     //gerar construtor da classe Base
     public Hooks(Base base) {
+        super(base.driver);
         this.base = base;
     }
-
     //definir before e after
 
     @Before
@@ -31,6 +32,6 @@ public class Hooks extends Base{
 
     @After
     public void tearDown(){
-        base.driver.quit();
+         base.driver.quit();
     }
 }
