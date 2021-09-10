@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-Este projeto mostra uso do PageObject com IntelliJ e JDK 8, com técnicas vistas no curso de formação em Teste de Software.
+Este projeto mostra uso do PageFactory com IntelliJ e JDK 8, com técnicas vistas no curso de formação em Teste de Software.
 
 Visite o meu canal voltado a tecnologia da Informação: [Gotas de Tecnologia](https://www.youtube.com/channel/UCv68KoK1bo2R44fGmcT1G2g)
 
