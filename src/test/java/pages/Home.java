@@ -1,11 +1,9 @@
 package pages;
-
 import general.Base;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
 public class Home extends Base {
     //mapeamentos barra de pesquisa
     @FindBy(id="search") //em vez de driverByFindElements
