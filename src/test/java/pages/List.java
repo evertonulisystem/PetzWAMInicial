@@ -5,13 +5,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-
     public class List extends Base{
 
         public List(WebDriver driver) {
             super(driver);
         }
-    }
+
 
     //Definindo mapeamentos
     @FindBy(css="h1.h2Categoria.nomeCategoria")
@@ -30,11 +29,11 @@ import org.openqa.selenium.support.FindBy;
         return driver.getTitle();
         }
 
-    public void String clickAtDesiredProduct(String product ){
-        driver.findElement(By.xpath("//h3[contains(text(), '" +product+ "')]")).click();
+    public void clickAtDesiredProduct(String product) {
+             driver.findElement(By.xpath("//h3[contains(text(),'" +product+ "')]")).click();
         }
 
-    public String readResultBy(){
+    public String readResultBy() {
         return lblResultBy.getText();
 
         }

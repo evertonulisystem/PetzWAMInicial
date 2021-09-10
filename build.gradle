@@ -15,8 +15,12 @@ dependencies {
     implementation group: 'info.cukes', name: 'cucumber-java', version: '1.2.5'
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
     testImplementation group: 'info.cukes', name: 'cucumber-picocontainer', version: '1.2.5'
+
+    // gera o json e o html com os  dados do teste para o relat associado as features e cenario gherkin
+   implementation group: 'com.aventstack', name: 'extentreports', version: '3.0.7'//5.0.1 nao vai funioanrar
+
+    // gera o dashboard apartir do aventstack
     implementation 'com.vimalselvam:cucumber-extentsreport:3.1.1'
-    implementation group: 'com.aventstack', name: 'extentreports', version: '3.0.7'//5.0.1 nao vai funioanrar
     implementation group: 'org.freemarker', name: 'freemarker', version: '2.3.28'
 }
 
