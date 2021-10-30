@@ -7,8 +7,6 @@ Este projeto mostra uso do PageFactory com IntelliJ e JDK 8, com técnicas vista
 
 Visite o meu canal voltado a tecnologia da Informação: [Gotas de Tecnologia](https://www.youtube.com/channel/UCv68KoK1bo2R44fGmcT1G2g)
 
-![Teste](https://github.com/evertonulisystem/assets/blob/main/Tela01.PNG) 
-
 # Features implementadas 
 * Hooks
 * Base 
